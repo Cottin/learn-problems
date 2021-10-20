@@ -7,7 +7,6 @@ const firstList = firstPrompt.split(',');
 const secondPrompt = readline.question('Give me another list: '); // eg. 1,2,3
 const secondList = secondPrompt.split(',');
 
-// Your code here...
+const thirdList = firstList + "," + secondList
 
-console.log('The two lists combined alternatingly are:' + '...');
-
+console.log('The two lists combined alternatingly are: ' + thirdList);
