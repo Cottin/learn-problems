@@ -5,6 +5,9 @@ const firstPrompt = readline.question('Give me a list of numbers: '); // eg. 1,2
 const numbers = firstPrompt.split(',').map(x => parseInt(x));
 
 // Your code here...
+for(let i = 1 ; i < numbers.length ; i++) {
+    numbers[i] = numbers[i] + numbers[i-1];
+  }
 
-console.log('The total of the list is:' + '...');
+console.log('The total of the list is:' + numbers)
 
