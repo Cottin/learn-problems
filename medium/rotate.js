@@ -7,6 +7,11 @@ const firstList = firstPrompt.split(',').map(x => parseInt(x));
 const secondPrompt = readline.question('By how many should we rotate? '); // eg. 2
 
 // Your code here...
+let sliceMoveToEnd = firstList.slice(0, +secondPrompt)
+let sliceMoveToBeginning = firstList.slice(+secondPrompt)
+let rotatedArr = sliceMoveToBeginning.concat(sliceMoveToEnd)
 
-console.log('The list rotated by ' + '...' + ' looks like:' + '...');
+console.log('The list rotated by ' + secondPrompt + ' looks like:' + rotatedArr)
+
+console.log('The list rotated by ' + secondPrompt + ' looks like:' + rotatedArr)
 
