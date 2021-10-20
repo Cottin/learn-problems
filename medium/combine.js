@@ -9,5 +9,15 @@ const secondList = secondPrompt.split(',');
 
 // Your code here...
 
+function combine(arr1, arr2) {
+    for (let i = 0; i < arr1.length; i++) {
+        let result = [];
+        result += arr1[i]
+        
+    }
+}
+
+combine(['a', 'b', 'c'], )
+
 console.log('The two lists combined alternatingly are:' + '...');
 
