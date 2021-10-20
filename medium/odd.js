@@ -10,6 +10,9 @@ const numbers = firstPrompt.split(',').map(function(num){
 */
 
 const numbers = firstPrompt.split(',').map(x => parseInt(x));
+=======
+const result = numbers.filter(number => number % 2 !== 0);
+
 // Your code here...
 console.log("The odd numbers are: ");
 for(var i = 0; i < numbers.length; i ++){
@@ -18,7 +21,10 @@ for(var i = 0; i < numbers.length; i ++){
     }
 }
 
+
 //Just testing
 //const numbers2 = firstPrompt.split(',').map(x => x % 2 == 1 ? parseInt(x) : null);
+=======
+console.log('The odd numbers are:', result);
 
 //console.log(numbers2)
