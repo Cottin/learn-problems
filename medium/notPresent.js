@@ -7,6 +7,14 @@ const secondPrompt = readline.question('Give me another list of numbers: '); // 
 const secondList = secondPrompt.split(',').map(x => parseInt(x));
 
 // Your code here...
+let fl = firstList
+let sl = secondList
+notPresent = fl.filter(function (sum){
+    return sl.indexOf(sum) < 0
+})
 
-console.log('The two lists merged and sorted are:' + '...');
+     
+    
+
+console.log(`after sorting the array, ${notPresent} was not in the second array`);
 
