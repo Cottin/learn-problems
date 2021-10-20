@@ -7,6 +7,6 @@ const secondPrompt = readline.question('Give me another list: '); // eg. 1,2,3
 const secondList = secondPrompt.split(',');
 
 // Your code here...
+const concatenatedList = firstList.concat(secondList)
 
-console.log('The two lists concatenated are:' + '...');
-
+console.log('The two lists concatenated are:' + concatenatedList);
