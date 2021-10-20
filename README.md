@@ -18,6 +18,7 @@ node ./elementary/2-whatsYourName.js
 1. Försök lösa problemet enskilt
 1. Pusha till er fort och gör en PR till mitt repo
 1. Sätt ett kryss i klar kolumnen i sheets när ni är klara
+1. Om du är klar, välj en annan uppgift och försök lösa den också (och gör PR etc.)
 
 ## Uppgift 2 - "Alla är collaborators"
 
