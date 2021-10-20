@@ -10,10 +10,36 @@ const readline = require("readline-sync")
 // * frame *
 // *********
 
-const firstPrompt = readline.question('Give me a list of strings: '); // eg. Hello,World,in,a,frame
-const strings = firstPrompt.split(',');
+const firstPrompt = readline.question('Give me a list of strings: ') // eg. Hello,World,in,a,frame
+const strings = firstPrompt.split(',')
 
-// Your code here...
+const printStringsInSquare = strings => {
+  let maxLength = 0
 
-console.log('*********' + '....');
+  strings.forEach(string => {
+    if (string.length > maxLength) {
+      maxLength = string.length
+    }
+  })
 
+  let starLine = []
+  for (let i = 0; i < maxLength + 4; i++) {
+    starLine.push('*')
+  }
+
+  console.log(starLine.join(''))
+
+  strings.forEach(string => {
+    let wordLine = ['* ' + string + ' ']
+
+    for (let i = string.length; i < maxLength; i++) {
+      wordLine.push(' ')
+    }
+    wordLine.push('*')
+    console.log(wordLine.join(''))
+  })
+
+  console.log(starLine.join(''))
+}
+
+printStringsInSquare(strings)
