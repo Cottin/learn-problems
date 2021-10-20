@@ -6,7 +6,9 @@ const firstList = firstPrompt.split(',').map(x => parseInt(x));
 const secondPrompt = readline.question('Give me another list of numbers: '); // eg. 1,2,3
 const secondList = secondPrompt.split(',').map(x => parseInt(x));
 
-// Your code here...
+notPresent = firstList.filter(function (sum){
+    return secondList.indexOf(sum) < 0
+})
 
-console.log('The two lists merged and sorted are:' + '...');
 
+console.log('The two lists merged and sorted, the ones not present in the first list: ' + notPresent);
