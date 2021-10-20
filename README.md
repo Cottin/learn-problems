@@ -5,7 +5,7 @@ En samling korta problem som mest tagits från [Adrian Neumann](https://adriann.
 ## Instruktioner
 ```
 // Start with
-npm install
+ ! npm install
 
 // Implement one of the functions and run it in your terminal like so
 node ./elementary/2-whatsYourName.js
