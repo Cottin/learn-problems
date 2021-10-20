@@ -14,8 +14,9 @@ node ./elementary/2-whatsYourName.js
 ## Uppgift 1 - "OpenSource repo, ingen är collaborator"
 
 1. Välj ett problem och skriv upp dig i google sheet med ditt github användarnamn
-1. Gör en fork och försök lösa problemet enskilt
-1. Efter att du löst problemet, gör en PR
+1. Gör en fork av min och clona er fork till lokal maskin
+1. Försök lösa problemet enskilt
+1. Pusha till er fort och gör en PR till mitt repo
 
 ## Uppgift 2 - "Alla är collaborators"
 
