@@ -17,6 +17,7 @@ node ./elementary/2-whatsYourName.js
 1. Gör en fork av min och clona er fork till lokal maskin
 1. Försök lösa problemet enskilt
 1. Pusha till er fort och gör en PR till mitt repo
+1. Sätt ett kryss i klar kolumnen i sheets när ni är klara
 
 ## Uppgift 2 - "Alla är collaborators"
 
