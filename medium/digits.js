@@ -5,7 +5,9 @@ const readline = require("readline-sync")
 const firstPrompt = readline.question('Give me a number: '); // eg. 2342
 const number = parseInt(firstPrompt);
 
-// Your code here...
 
-console.log('The list rotated by ' + '...' + ' looks like:' + '...' + number);
+const digits = ("" + number).split("");
+
+
+console.log('The list rotated by ' + '...' + ' looks like:' + '...' + digits);
 
