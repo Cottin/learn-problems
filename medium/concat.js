@@ -8,5 +8,4 @@ const secondList = secondPrompt.split(',');
 
 // Your code here...
 
-console.log('The two lists concatenated are:' + '...');
-
+console.log('The two lists concatenated are: ' + firstList.concat(secondList));
