@@ -6,6 +6,9 @@ const numbers = firstPrompt.split(',').map(x => parseInt(x));
 const secondPrompt = readline.question('Give me a number to check for: '); // eg. 2
 
 // Your code here...
-
-console.log('The number ' + '...' + 'does (not) occur in the list ' + '...');
-
+if(numbers.includes(parseInt(secondPrompt))){
+    console.log('The number ' + secondPrompt + ' does occur in the list ' + '...');
+}
+else{
+console.log('The number ' + secondPrompt + ' does NOT occur in the list ' + '...');
+}
