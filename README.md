@@ -25,7 +25,7 @@ node ./elementary/2-whatsYourName.js
 1. Välj ett problem och skriv upp dig i google sheet med ditt github användarnamn i Runda 1.
 1. Acceptera invitation till att vara collaborator i det här repot. Säg till om du inte fått invite!
 1. Gör ingen fork! Gör en _clone_ av mitt repo och försök lösa problemet enskilt genom att följa [Github flow](https://guides.github.com/introduction/flow/)  🐪 Så se till att göra en egen branch!
-  1. Om du vill fortsätta på din tidigare clone du gjorde av din egen fork. Träna på att sätta ny remote som vi gjorde i morse. `git remote remove origin` + git remote add origin http://...github.../Cottin/learn-problems 
+  1.1 Om du vill fortsätta på din tidigare clone du gjorde av din egen fork. Träna på att sätta ny remote som vi gjorde i morse. `git remote remove origin` + git remote add origin http://...github.../Cottin/learn-problems 
 3. Gör PR när du är klar, sätt en person som klarat uppgiften tidigare som reviewer och assigneee
 4. När du fått en PR assignad till dig, gå till dennes PR och och gör en code review och gör en request change på valfri förbättring av koden eller bara kräv att din partner ska lägg till en kommentar
 5. Lös den request som din reviwer gjort och tryck "Resolve conversation" och gör en "re-request review"
