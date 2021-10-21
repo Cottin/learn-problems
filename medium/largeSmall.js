@@ -6,5 +6,5 @@ const numbers = firstPrompt.split(',').map(x => parseInt(x));
 
 // Your code here...
 
-console.log('The largest number is:' + '...' + ' and the smallest number is:' + '...');
+console.log('The largest number is: ' + Math.max(...numbers) + ' and the smallest number is: ' + Math.min(...numbers) );
 
